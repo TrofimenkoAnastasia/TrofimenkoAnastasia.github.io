@@ -1,0 +1,721 @@
+/* Fonts */
+/* Colors */
+/* Basic setting */
+html {
+  font-size: 10px;
+}
+body,
+html {
+  overflow-x: hidden;
+  color: #666666;
+  font-family: 'HelveticaNeueCyr_Roman', Tahoma, sans-serif;
+}
+h2 {
+  font: 5rem 'Vollkorn', serif;
+  text-align: center;
+  color: #666666;
+  margin: 3rem 0;
+}
+p {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+h5 {
+  margin: 0;
+}
+button {
+  padding: 1.7rem 2.5rem 1.2rem;
+  text-transform: uppercase;
+  border: 2px solid #666666;
+  font-family: 'HelveticaNeueCyr_Bold', Tahoma, sans-serif;
+  font-size: 1.4rem;
+  background: transparent;
+  color: #666666;
+}
+button:hover {
+  background: #666666;
+  color: #fff;
+}
+button:active,
+button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+a {
+  color: #313131;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+a:hover {
+  color: #313131;
+  text-decoration: none;
+}
+section {
+  background: #fff;
+}
+.mobile,
+.tablet {
+  display: none;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.logo {
+  font-size: 1.2rem;
+}
+.logo span {
+  font-family: 'Pacifico', cursive;
+  text-transform: none;
+  font-size: 2rem;
+  line-height: 1.3;
+}
+header {
+  text-transform: uppercase;
+}
+header .container {
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 9rem;
+  background: #fff;
+}
+header a {
+  text-decoration: none;
+}
+header nav {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+header nav a {
+  text-decoration: none;
+}
+header nav a:hover {
+  color: #000;
+}
+header nav ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav ul li {
+  padding: 0 2rem;
+}
+main {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+main .main-item-1 div,
+main .main-item-2 div,
+main .main-item-3 div,
+main .main-item-4 div,
+main .main-item-5 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+}
+main .main-item-1 div div,
+main .main-item-2 div div,
+main .main-item-3 div div,
+main .main-item-4 div div,
+main .main-item-5 div div {
+  display: block;
+  background: transparent;
+  text-align: center;
+}
+main .main-item-1 h2,
+main .main-item-2 h2,
+main .main-item-3 h2,
+main .main-item-4 h2,
+main .main-item-5 h2 {
+  font-size: 2.5rem;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+main .main-item-1 p,
+main .main-item-2 p,
+main .main-item-3 p,
+main .main-item-4 p,
+main .main-item-5 p {
+  font-size: 1.8rem;
+}
+main .main-item-1 button,
+main .main-item-2 button,
+main .main-item-3 button,
+main .main-item-4 button,
+main .main-item-5 button {
+  margin-top: 4rem;
+  color: #fff;
+  border: 2px solid #fff;
+}
+main .main-item-1 button:hover,
+main .main-item-2 button:hover,
+main .main-item-3 button:hover,
+main .main-item-4 button:hover,
+main .main-item-5 button:hover {
+  background: #fff;
+  color: #666666;
+}
+main .main-item-1 {
+  background: #ffffff url(../img/main/k-pop.png) center no-repeat;
+  background-size: cover;
+}
+main .main-item-1 div {
+  width: 50vw;
+  height: 50vw;
+}
+main .main-item-1 div div {
+  width: auto;
+  height: auto;
+}
+main .main-item-1 div h2 {
+  font-size: 5.6rem;
+}
+main .main-item-2-5 {
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+main .main-item-2 div,
+main .main-item-3 div,
+main .main-item-4 div,
+main .main-item-5 div {
+  width: 25vw;
+  height: 25vw;
+}
+main .main-item-2 {
+  background: #ffffff url(../img/main/Break-Dance.png) center no-repeat;
+  background-size: cover;
+}
+main .main-item-3 {
+  background: #ffffff url(../img/main/Contemporary_dance.png) center no-repeat;
+  background-size: cover;
+}
+main .main-item-4 {
+  background: #ffffff url(../img/main/yoga.png) center no-repeat;
+  background-size: cover;
+}
+main .main-item-5 {
+  background: #ffffff url(../img/main/kid.png) center no-repeat;
+  background-size: cover;
+}
+.burger {
+  display: none;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+}
+.burger-container {
+  padding: 2rem 1.5rem;
+  height: 9rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.burger-container div {
+  width: 3.5rem;
+  height: 0.4rem;
+  background-color: #313131;
+  margin: 0.6rem 0;
+  border-radius: 0.2rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.studio {
+  padding: 1rem 0 9rem;
+  background: #ffffff 0 0 no-repeat;
+  position: relative;
+  z-index: 1;
+}
+.studio .container {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.studio .container p {
+  width: 80%;
+  margin: 0.8rem auto;
+  font-size: 1.8rem;
+}
+.studio h2 {
+  font-size: 6rem;
+}
+.studio-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -3px;
+}
+.studio-item-img img {
+  width: 50vw;
+  height: 50vw;
+}
+.studio-item-content {
+  width: 50vw;
+  height: 50vw;
+  padding: 5% 7%;
+}
+.studio-item-content h2 {
+  text-align: left;
+  font-size: 5rem;
+}
+.parallax {
+  min-height: 320px;
+  width: 100vw;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -1;
+  background: #181413 url(../img/about_me/about_me@2x.jpg) center no-repeat;
+  background-size: cover;
+}
+.about {
+  padding: 9rem 0 9rem;
+  background: #ffffff 0 0 no-repeat;
+}
+.about h2 {
+  text-align: left;
+  margin-top: 0;
+}
+.about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.about-content p,
+.about-content ul {
+  width: 50vw;
+  margin-top: 0.5rem;
+}
+.about-content ul {
+  list-style-type: square;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.about-content ul li {
+  margin-left: 2.2rem;
+}
+.about-img {
+  width: 30vw;
+  height: 30vw;
+  background: #ffffff url(../img/about_me/portrait.jpg) top no-repeat;
+  background-size: cover;
+}
+.classes {
+  background: #fff;
+}
+.classes-header {
+  position: relative;
+  padding: 6rem 0;
+  background: #ffffff url(../img/classes/classes_feet.jpg) center no-repeat;
+  background-size: cover;
+}
+.classes-header::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.classes-header h2 {
+  color: #fff;
+  position: relative;
+  z-index: 0;
+  font-size: 6rem;
+}
+.classes-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 15rem auto;
+}
+.classes-item-content {
+  width: 45vw;
+}
+.classes-item-content h2 {
+  text-align: left;
+  margin: 0;
+}
+.classes-item-content p {
+  margin-bottom: 0.5rem;
+}
+.classes-item-content p:nth-last-of-type(1) {
+  margin: 1.5rem 0;
+}
+.classes-item-content span {
+  font-family: 'HelveticaNeueCyr_Bold', Tahoma, sans-serif;
+}
+.classes-item-img {
+  width: 25vw;
+  height: 25vw;
+}
+.classes-item-img-1 {
+  background: #ffffff url(../img/classes/k-pop@2x.png) center no-repeat;
+  background-size: cover;
+}
+.classes-item-img-2 {
+  background: #ffffff url(../img/classes/Break-Dance@2x.png) center no-repeat;
+  background-size: cover;
+}
+.classes-item-img-3 {
+  background: #ffffff url(../img/classes/Contemporary_dance@2x.png) center no-repeat;
+  background-size: cover;
+}
+.classes-item-img-4 {
+  background: #ffffff url(../img/classes/yoga@2x.png) center no-repeat;
+  background-size: cover;
+}
+.classes-item-img-5 {
+  background: #ffffff url(../img/classes/kid@2x.png) center no-repeat;
+  background-size: cover;
+}
+.classes-item-img-6 {
+  background: #ffffff url(../img/classes/kid_6-9@2x.jpg) center no-repeat;
+  background-size: cover;
+}
+.gallery {
+  padding-bottom: 6rem;
+}
+.gallery-foto {
+  position: relative;
+}
+.gallery-foto-container {
+  width: 82vw;
+  margin: auto;
+  overflow: hidden;
+}
+.gallery-foto-carousel {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 162vw;
+  height: 25vw;
+}
+.gallery-foto-carousel a {
+  margin: 0 1vw;
+  display: inline;
+}
+.gallery-video {
+  margin-top: 5rem;
+  position: relative;
+}
+.gallery-video-container {
+  width: 82vw;
+  margin: auto;
+  overflow: hidden;
+}
+.gallery-video .gallery-foto-carousel {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 488vw;
+  height: 25vw;
+}
+.gallery-video .gallery-foto-carousel iframe {
+  margin: 0 1vw;
+  display: inline;
+}
+/* Arrows / Стрелки */
+.prev,
+.next {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+}
+.prev:hover,
+.next:hover {
+  background: none;
+  border: none;
+}
+.prev:hover::before,
+.next:hover::before,
+.prev:hover::after,
+.next:hover::after {
+  background: #000 ;
+}
+.prev::before,
+.next::before,
+.prev::after,
+.next::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  background: #666666;
+  width: 3px;
+  height: 20px;
+}
+.prev {
+  left: 0px;
+  display: none;
+}
+.prev:before {
+  top: 20px;
+  -webkit-transform: skewX(18deg);
+  transform: skewX(18deg);
+}
+.prev:after {
+  top: 0;
+  -webkit-transform: skewX(-18deg);
+  transform: skewX(-18deg);
+}
+.next {
+  right: 0px;
+}
+.next:before {
+  top: 20px;
+  -webkit-transform: skewX(-18deg);
+  transform: skewX(-18deg);
+}
+.next:after {
+  top: 0;
+  -webkit-transform: skewX(18deg);
+  transform: skewX(18deg);
+}
+/* end Arrows / Стрелки */
+/* Dots / Точки */
+.dot {
+  display: inline-block;
+  margin: 0 0.6rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: transparent;
+  border: 2px solid #666666;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dot:hover {
+  background-color: #000;
+  border: 2px solid #000;
+}
+.dots {
+  position: absolute;
+  top: calc(100% + 2rem);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.active {
+  background-color: #666666;
+}
+.contacts {
+  padding: 6rem 0;
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+.contacts h2 {
+  color: #fff;
+}
+.contacts form {
+  max-width: 30%;
+  margin: 0 auto;
+}
+.contacts form input,
+.contacts form textarea {
+  display: block;
+  width: 100%;
+  margin: 1.5rem 0;
+  padding: 1.5rem 1.5rem 0.5rem;
+  background: transparent;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #fff;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  color: #fff;
+}
+.contacts form button {
+  color: #fff;
+  border: 2px solid #fff;
+  display: block;
+  margin: 2rem auto 1rem;
+}
+.contacts form button:hover {
+  background: #fff;
+  color: #666666;
+}
+#gallery-foto-popap {
+  display: none;
+}
+#gallery-foto-popap img {
+  height: 100%;
+}
+/* Custom select */
+/* The container must be positioned relative: */
+/* Контейнер должен быть расположен относительно: */
+.custom-select {
+  width: 100%;
+  position: relative;
+  margin: 2rem 0 0;
+  text-align: left;
+  font-family: 'HelveticaNeueCyr_Roman', Tahoma, sans-serif;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #fff;
+}
+.custom-select select {
+  display: none;
+  /*hide original SELECT element: / скрыть оригинальный элемент SELECT: */
+}
+.select-selected {
+  background-color: transparent;
+}
+/* Style the arrow inside the select element: / Стиль стрелки внутри элемента выбора: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+/* Point the arrow upwards when the select box is open (active): / Направьте стрелку вверх, когда окно выбора открыто (активно): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+/* style the items (options), including the selected item: / стилизовать элементы (options), включая выбранный элемент:*/
+.select-items div,
+.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(255, 255, 255, 0.6) transparent;
+  cursor: pointer;
+}
+/* Style items (options): / Элементы стиля (options):*/
+.select-items {
+  position: absolute;
+  background-color: #000;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/* Hide the items when the select box is closed: / Скрыть элементы, когда окно выбора закрыто: */
+.select-hide {
+  display: none;
+}
+.select-items div:hover,
+.same-as-selected {
+  color: #666666;
+}
+/* end Custom select */
+footer {
+  padding: 4rem;
+  color: #fff;
+  background: #666666;
+}
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+footer .logo a {
+  text-transform: uppercase;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .contact p {
+  margin: 0.5rem;
+}
+/* Popaps / Модальные окна*/
+.popap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 5vh;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+.popap-content {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  z-index: 4;
+}
+.popap-close {
+  position: absolute;
+  top: -10px;
+  right: -35px;
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+}
+#gallery-foto-popap {
+  display: none;
+}
+#gallery-foto-popap img {
+  height: 100%;
+}
+/* md */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+/* sm */
+@media (max-width: 992px) {
+  .container {
+    width: 750px;
+  }
+}
+/* xs */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+/* xs */
